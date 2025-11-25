@@ -37,7 +37,7 @@ const seedAdmin = async () => {
                     existingAdmin.password = 'admin123'; // Will be hashed by pre-save hook
                     await existingAdmin.save();
                     console.log('✅ Admin password reset successfully!');
-                    console.log('📧 Email: admin@bodhamantraa.com');
+                    console.log('📧 Email: admins432@gmail.com');
                     console.log('🔑 Password: admin123');
                 }
                 rl.close();
