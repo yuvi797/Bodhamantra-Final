@@ -48,7 +48,7 @@ const seedAdmin = async () => {
             // Create new admin user
             const admin = new Admin({
                 name: 'Admin',
-                email: 'admin@bodhamantraa.com',
+                email: 'adminbodha321@gmail.com',
                 password: 'admin123', // Will be hashed by pre-save hook
                 role: 'admin'
             });
@@ -58,7 +58,7 @@ const seedAdmin = async () => {
             console.log('✅ Admin user created successfully!');
             console.log('\n📋 Admin Credentials:');
             console.log('────────────────────────────');
-            console.log('📧 Email: admin@bodhamantraa.com');
+            console.log('📧 Email: adminbodha321@gmail.com');
             console.log('🔑 Password: admin123');
             console.log('👤 Name: Admin');
             console.log('🎭 Role: admin');
