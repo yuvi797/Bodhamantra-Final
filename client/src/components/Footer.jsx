@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="text-center mb-10">
           <h3 className="text-3xl font-bold mb-2">BodhMantraa</h3>
           <p className="text-lg text-green-200 font-medium">
-            “We don’t charge any fees. Seniors help students at ₹50 per student.”
+            “We don’t charge any fees. Seniors help students at ₹29 per student.”
           </p>
         </div>
 
