@@ -14,7 +14,7 @@ export const studentRegisterSchema = z.object({
     .regex(/[0-9]/, "Must include 1 number"),
 
   phone: z.string()
-  .regex(/^(\+91[\s-]?)?[0-9]{10}$/, "Invalid phone number")
+  .regex(/^(\+91[\s-]?)?[0-9]{10}$/, "Invalid phone number"),
 
   course: z.string()
     .min(2, "Course is required"),
